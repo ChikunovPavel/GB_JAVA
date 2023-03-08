@@ -4,12 +4,13 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-//* Написать программу, которая найдет и выведет повторяющиеся имена с количеством повторений.
-//* Отсортировать по убыванию популярности Имени.
+// * Написать программу, которая найдет и выведет повторяющиеся имена с количеством повторений.
+// * Отсортировать по убыванию популярности Имени.
 
 public class task2 {
     public static void main(String[] args) {
         Map<String, Integer> namesDict = new HashMap<>();
+        
 
         String[] namesArr = {
             "Иван Иванов",
